@@ -4,11 +4,9 @@
     background: rgba(0, 0, 0, 0) !important;
   }
 
-  .headerPlaying-j0WQBV,
-  .headerStreaming-2FjmGz {
-    background: rgb(0, 0, 0, 0) !important;
+  .headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
+      background: #7289da;
   }
-
 
   .reduce-motion .userPopout-3XzG_A,
   .root-SR8cQa[src*="467506376373960704"] {
