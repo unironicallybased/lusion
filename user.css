@@ -1,6 +1,6 @@
-*/ USERPOPOUTS */
+/* USERPOPOUTS */
 
-[user_by_bdfdb*="467506376373960704"],
+  [user_by_bdfdb*="467506376373960704"],
   [aria-label*="467506376373960704,"] {
     --user-background: url('https://i.imgur.com/pqdICWJ.gif');
   }
@@ -46,7 +46,7 @@
     z-index: 1;
   }
 
-*/ TAGS */
+/* TAGS */
 
   .avatar-1BDn8e[src*="467506376373960704"] + h2::after{
     content: '';
@@ -98,7 +98,7 @@
     border-radius: 5px;
   }
 
-*/ KEYFRAMES */
+/* KEYFRAMES */
 
   @keyframes popoutanim {
     0% {
