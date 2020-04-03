@@ -1,53 +1,50 @@
 /* USERPOPOUTS */
 
-  .header-2BwW8b {
-    background: rgba(0, 0, 0, 0) !important;
-  }
-
-  .headerPlaying-j0WQBV,
-  .headerStreaming-2FjmGz {
-      background: rgba(0, 0, 0, 0) !important;
-  }
-
-  .reduce-motion .userPopout-3XzG_A,
-  .root-SR8cQa[src*="467506376373960704"] {
-    transform:translateZ(0);
-  }
-
-  .userPopout-3XzG_A {
-    position: relative !important;
-    width: 260px !important;
-    max-height: 95vh !important;
-    z-index: 99999999 !important;
+.headerPlaying-j0WQBV,
+.headerStreaming-2FjmGz,
+.userPopout-3XzG_A,
+.headerNormal-T_seeN {
+  background: rgb(24, 24, 24) !important;
+  background-color: rgb(24, 24, 24) !important;
+  border-color: rgba(0, 0, 0, 0) !important;
 }
 
-  .userPopout-3XzG_A .wrapper-3t9DeA::after {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    pointer-events: none;
-    opacity: .5;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: var(--user-popout-position) center;
-    background-image: var(--user-background);
-    border-radius: 5px;
-    filter: none;
-  }
-
-  .userPopout-3XzG_A  .header-2BwW8b,
-  .userPopout-3XzG_A  .scroller-2FKFPG,
-  .userPopout-3XzG_A  .footer-1fjuF6 {
-    z-index: 1;
-  }
+.footer-1fjuF6,
+.activity-11LB_k {
+  background: rgba(0, 0, 0, 0) !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+}
 
 .userPopout-3XzG_A {
   --user-popout-position: center;
-}  
+}
+
+.reduce-motion .userPopout-3XzG_A {
+	transform:translateZ(0);
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	pointer-events: none;
+  opacity: 0.5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: var(--user-popout-position) center;
+  background-image: var(--user-background);
+  border-radius: 5px;
+}
+
+.userPopout-3XzG_A  .header-2BwW8b,
+.userPopout-3XzG_A  .scroller-2FKFPG,
+.userPopout-3XzG_A  .footer-1fjuF6 {
+	z-index: 1;
+}
 
 [user_by_bdfdb*="467506376373960704"],
 [aria-label*="467506376373960704,"] {
