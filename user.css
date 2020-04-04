@@ -2,16 +2,12 @@
 
 .headerPlaying-j0WQBV,
 .headerStreaming-2FjmGz,
-.userPopout-3XzG_A,
+.userPopout-3XzG_A .header-2BwW8b,
+.userPopout-3XzG_A .scroller-2FKFPG,
+.userPopout-3XzG_A .activity-11LB_k,
+.userPopout-3XzG_A .footer-1fjuF6,
 .headerNormal-T_seeN {
   background: rgb(24, 24, 24) !important;
-  background-color: rgb(24, 24, 24) !important;
-  border-color: rgba(0, 0, 0, 0) !important;
-}
-
-.footer-1fjuF6,
-.activity-11LB_k {
-  background: rgba(0, 0, 0, 0) !important;
   border-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -32,18 +28,12 @@
 	height: 100%;
 	z-index: -1;
 	pointer-events: none;
-  opacity: 0.5;
+    opacity: 100;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position) center;
-  background-image: var(--user-background);
-  border-radius: 5px;
-}
-
-.userPopout-3XzG_A  .header-2BwW8b,
-.userPopout-3XzG_A  .scroller-2FKFPG,
-.userPopout-3XzG_A  .footer-1fjuF6 {
-	z-index: 1;
+    background-image: url('https://i.imgur.com/pqdICWJ.gif');
+    border-radius: 5px;
 }
 
 [user_by_bdfdb*="467506376373960704"],
