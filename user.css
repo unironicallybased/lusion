@@ -32,7 +32,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: var(--user-popout-position) center;
-    background-image: url('https://i.imgur.com/pqdICWJ.gif');
+    background-image: var(--user-background);
     border-radius: 5px;
 }
 
