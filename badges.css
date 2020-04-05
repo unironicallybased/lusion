@@ -24,7 +24,7 @@
     bottom: -29px;
     left: -22px;
     pointer-events: none;
-    filter: drop-shadow(0 0 1px var(--primary-color)) drop-shadow(0 0 1px var(--primary-color)) drop-shadow(0 0 1px var(--primary-color))
+    filter: drop-shadow(0 0 1px #00885f00) drop-shadow(0 0 1px #00b881)
   }
 
 .avatar-1BDn8e[src*="467506376373960704"] + h2::after {
