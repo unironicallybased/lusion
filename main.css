@@ -158,19 +158,6 @@
 
 /* PINS */
 
-#app-mount .avatar-1BDn8e + h2 {
-    overflow: visible;
-}
-  
-.avatar-1BDn8e:hover + h2 {
-  opacity: 1;
-}
-  
-.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG,
-.container-3FojY8 {
-  overflow: visible;
-}
-
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
   background-color: var(--background-floating);
 }
