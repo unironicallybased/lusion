@@ -13,7 +13,8 @@
   overflow: visible;
 }
 
-.avatar-1BDn8e[src*="467506376373960704"] + h2::after{
+.avatar-1BDn8e[src*="588716235529650210"] + h2::after,
+.avatar-1BDn8e[src*="467506376373960704"] + h2::after {
     content: '';
     color: transparent;
     height: 25px;
