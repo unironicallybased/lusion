@@ -1,0 +1,95 @@
+/* BADGES */
+
+.avatar-1BDn8e[src*="467506376373960704"] + h2::after{
+  content: '';
+  color: transparent;
+  height: 25px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -29px;
+  left: -22px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
+
+/* HOVER */
+
+.avatar-1BDn8e[src*="467506376373960704"]:hover + h2::after{
+  color: white;
+  transform: none;
+  background-size: cover;
+  background-position: center;
+  padding: 3px 10px !important;
+  height: auto;
+  width: fit-content !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  bottom: -31px !important;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  filter: none;
+  display: block !important;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+.avatar-1BDn8e[src*="467506376373960704"] + h2::after {
+  background-image: url(https://i.imgur.com/1qBTZlh.png);
+  transform: scale(1.2);
+  bottom: -30px;
+  left: -26px;
+}
+
+.avatar-1BDn8e + h2::after {
+  color: var(--main-color, var(--mc, rgb(var(--BG-tint-colour, 114, 137, 218))));
+  font-size: 13px;
+  position: absolute;
+  bottom: -23px;
+  left: -29px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: BMTicons;
+  pointer-events: none;
+  display: inline-block !important;
+  z-index: 1;
+}
+  
+.avatar-1BDn8e:hover + h2::after {
+  font-family: "Whitney", "Helvetica";
+  --main-color: #000;
+  background-color: var(--main-color);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+  z-index: 3000000;
+  display: block;
+  position: absolute;
+  pointer-events: none;
+  color: #fff;
+  width: auto;
+  opacity: 1;
+  box-sizing: border-box;
+  white-space: nowrap;
+  bottom: -31px;
+}
+  
+#app-mount .messagesPopoutWrap-1MQ1bW .avatar-1BDn8e+ h2::after{
+  display: none !important;
+}
+
+.avatar-1BDn8e[src*="467506376373960704"]:hover + h2::after {
+  content: 'sweedy';
+  color: #ffd856;
+  --main-color: #ffe256;
+  background-image: url(https://i.imgur.com/0tAtFyG.gif);
+  text-shadow: -1px 0 black, 
+    0 1px black, 
+    1px 0 black, 
+    0 -1px black !important;
+  animation: popoutanim .1s;
+  border-radius: 5px;
+}
