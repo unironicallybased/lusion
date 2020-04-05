@@ -1,5 +1,6 @@
 @import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css');
 @import url('https://capnkitten.github.io/BetterDiscord/Spotify-Discord/css/source.css');
+@import url('https://unironicallybased.github.io/lusion/badges.css');
 @import url('https://unironicallybased.github.io/lusion/user.css');
 @import url('https://bdsources.github.io/sourcecheck/code.css');
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
@@ -157,6 +158,19 @@
 
 /* PINS */
 
+#app-mount .avatar-1BDn8e + h2 {
+    overflow: visible;
+}
+  
+.avatar-1BDn8e:hover + h2 {
+  opacity: 1;
+}
+  
+.chat-3bRxxu>.content-yTz4x3 .messages-3amgkR .containerCozy-jafyvG,
+.container-3FojY8 {
+  overflow: visible;
+}
+
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
   background-color: var(--background-floating);
 }
@@ -192,58 +206,6 @@
 
   .video-1kutKI {
     background-color: #191919;
-  }
-	
-/* TAGS */
-
-  .avatar-1BDn8e[src*="467506376373960704"] + h2::after{
-    content: '';
-    color: transparent;
-    height: 35px;
-    width: 20px;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    bottom: -29px;
-    left: -20px;
-    pointer-events: none;
-    filter: drop-shadow(0 0 1px var(--secondary-color)) drop-shadow(0 0 1px var(--secondary-color))
-  }
-
-  .avatar-1BDn8e[src*="467506376373960704"]:hover + h2::after{
-    color: white;
-    padding: 3px 10px !important;
-    height: auto;
-    width: fit-content !important;
-    box-sizing: border-box !important;
-    white-space: nowrap !important;
-    bottom: -40px !important;
-    font-weight: 700;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    display: block !important;
-    background-color: transparent;
-    box-shadow: none !important;
-    border-radius: 5px;
-  }
-  
-  .avatar-1BDn8e[src*="467506376373960704"] + h2::after {
-    background-image: url(https://i.imgur.com/1qBTZlh.png);
-    transform: scale(1.0);
-    bottom: -30px;
-    left: -40px;
-  }
-
-  .avatar-1BDn8e[src*="467506376373960704"]:hover + h2::after {
-    content: 'sweedy';
-    color: #ffd856;
-    --main-color: #ffe256;
-    background-image: url(https://i.imgur.com/0tAtFyG.gif);
-    text-shadow: -1px 0 black, 
-      0 1px black, 
-      1px 0 black, 
-      0 -1px black !important;
-    animation: popoutanim .1s;
-    border-radius: 5px;
   }
 
 /* KEYFRAMES */
