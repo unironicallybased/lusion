@@ -160,6 +160,35 @@
     background-color: var(--background-primary);
 }
 
+.container-1UB9sr, .container-1giJp5 {
+  position: relative;
+  background: #141414 !important;
+  border-radius: 0px 15px 0px 0px;
+}
+
+.panels-j1Uci_ {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: var(--background);
+}
+
+.container-1giJp5 {
+  border-bottom: 1px solid #00000000;
+}
+
+.content-yTz4x3:after {
+  background: #141414;
+}
+
+.chat-3bRxxu .messagesWrapper-3lZDfY + .form-2fGMdU {
+  background: #141414;
+}
+
+.container-3baos1 {
+  background: #141414 !important;
+}
+
 /* CLOSE BUTTON */
 
 #app-mount .closeButton-1tv5uR path:last-child {
