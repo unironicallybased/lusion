@@ -203,6 +203,15 @@
     background:rgba(255,255,255,0.15);
 }
 
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    color: #fff;
+    background-color: #1ab670;
+}
+
+.circleIconButton-jET_ig {
+    background-color: #1ab670;
+}
+
 /* PINS */
 
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
