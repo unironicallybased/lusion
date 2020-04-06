@@ -151,6 +151,20 @@
     --deprecated-text-input-prefix: #dcddde;
 }
 
+.wrapper-1Rf91z:after {
+    background: var(--background-secondary) !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    color: #1ab670;
+    background-color: var(--background-primary);
+}
+
+.circleIconButton-jET_ig {
+  color: #fff;
+  background-color: #1ab670;
+}
+
 /* CLOSE BUTTON */
 
 #app-mount .closeButton-1tv5uR path:last-child {
@@ -201,16 +215,6 @@
 
 .winButtonMinMax-PBQ2gm:active {
     background:rgba(255,255,255,0.15);
-}
-
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-    color: #1ab670;
-    background-color: var(--background-primary);
-}
-
-.circleIconButton-jET_ig {
-  color: #fff;
-  background-color: #1ab670;
 }
 
 /* PINS */
