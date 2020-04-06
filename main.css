@@ -216,12 +216,6 @@
 	font-size:var(--size2);
 }
 
-.titleBar-AC4pGV {
-	height: 26px;
-	box-shadow: 0 0 10px var(--lv1);
-	margin-top: 4px;
-}
-
 .winButton-iRh8-Z {
 	height: 30px;
 	transition: .1s ease background;
