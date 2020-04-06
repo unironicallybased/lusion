@@ -154,7 +154,7 @@
 .titleBar-AC4pGV {
     height: 26px;
     box-shadow: 0 0 10px var(--lv1);
-    margin-top: 0px;
+    margin-top: 0px !important;
 }
 
 .wrapper-1Rf91z:after {
