@@ -38,7 +38,7 @@
     bottom: -29px;
     left: -22px;
     pointer-events: none;
-    filter: drop-shadow(0 0 1px var(--primary-color)) drop-shadow(0 0 1px var(--primary-color)) drop-shadow(0 0 1px var(--primary-color))
+    filter: drop-shadow(0 0 1px #ff000050) drop-shadow(0 0 1px #ff000050) drop-shadow(0 0 1px #ff000050)
   }
   
   /* HOVER */
