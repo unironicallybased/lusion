@@ -6,12 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 :root {
-  --online: #43b581;
-  --idle: #faa61a;
-  --dnd: #f04747;
-  --offline: #636b75;
-  --invisible: #747f8d;
-  --streaming: #643da7;
+  --accent-color: #009b55;
   --HSL-server-icon-size: 40px;
   --HSL-server-spacing: 10px;
 
@@ -20,17 +15,17 @@
 }
 
 ::selection {
-	background: rgb(35, 177, 78);
-	color: rgb(255, 255, 255) !important;
+  background: #0eb933;
+  color: #ffffff !important;
   text-shadow: none;
 }
 
 .theme-dark,
 .appMount-3VJmYg {
-	--primary-color: rgba(255, 0, 0, 0.315);
-	--secondary-color: rgba(0,0,0,0.6);
-	--tertiary-color: rgba(0,0,0,0.4);
-	--quaternary-color: rgba(0,0,0,0.7);
+	--primary-color: #0eb933;
+	--secondary-color: #00000099;
+	--tertiary-color: #00000066;
+	--quaternary-color: #000000b3;
 }
 
 .container-3gCOGc,
@@ -154,6 +149,58 @@
     --deprecated-text-input-border-hover: #040405;
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;
+}
+
+/* CLOSE BUTTON */
+
+#app-mount .closeButton-1tv5uR path:last-child {
+	fill:rgba(255,255,255,0.7);
+}
+
+#app-mount .closeButton-1tv5uR{
+	border:none;
+	transition:200ms all linear;
+}
+
+#app-mount .closeButton-1tv5uR:hover {
+	background:rgba(255,255,255,0.07);
+}
+
+#app-mount .closeButton-1tv5uR:active {
+	background:rgba(255,255,255,0.1);
+}
+
+#app-mount .keybind-KpFkfr {
+	font-size:var(--size2);
+}
+
+.titleBar-AC4pGV {
+	height: 26px;
+	box-shadow: 0 0 10px var(--lv1);
+	margin-top: 4px;
+}
+
+.winButton-iRh8-Z {
+	height: 30px;
+	transition: .1s ease background;
+	transform: scale(1.01);
+	width: 45px;
+	top: -4px;
+	cursor: default;
+	color: #fff;
+	z-index:3001;
+}
+
+.winButtonClose-1HsbF-:hover {
+	background: #0eb933;
+}
+
+.winButtonClose-1HsbF-:active {
+    background:#0d9b2c;
+}
+
+.winButtonMinMax-PBQ2gm:active {
+    background:rgba(255,255,255,0.15);
 }
 
 /* PINS */
