@@ -26,6 +26,7 @@
 	--secondary-color: #00000099;
 	--tertiary-color: #00000066;
 	--quaternary-color: #000000b3;
+	--background-gray: #91919149;
 }
 
 .container-3gCOGc,
@@ -151,6 +152,18 @@
     --deprecated-text-input-prefix: #dcddde;
 }
 
+/* AVATARS */
+
+.cozy-3raOZG .contents-2mQqc9 .avatar-1BDn8e {
+    z-index: 1;
+    left: 1;
+    display: block;
+    border-radius: 40%;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, .15);
+}
+
+/* */
+
 .title-3qD0b-, .container-1r6BKw {
     background: #19191900 !important;
 }
@@ -198,7 +211,7 @@
   background: #141414 !important;
 }
 
-/* CLOSE BUTTON */
+/* WINDOWS BUTTONS */
 
 #app-mount .closeButton-1tv5uR path:last-child {
 	fill:rgba(255,255,255,0.7);
@@ -245,6 +258,10 @@
 }
 
 /* PINS */
+
+.jumpButton-Ia2hRJ {
+    background: var(--background-gray);
+}
 
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .scroller-2TZvBN {
   background-color: var(--background-floating);
