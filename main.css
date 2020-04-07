@@ -178,7 +178,7 @@
 }
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-    color: #1ab670;
+    color: #000000;
     background-color: var(--background-primary);
 }
 
@@ -246,11 +246,11 @@
 }
 
 .winButtonClose-1HsbF-:hover {
-	background: #0eb933;
+	background: #14882d;
 }
 
 .winButtonClose-1HsbF-:active {
-    background:#0d9b2c;
+    background:#0eb933;
 }
 
 .winButtonMinMax-PBQ2gm:active {
