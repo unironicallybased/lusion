@@ -182,6 +182,12 @@
     background-color: var(--background-primary);
 }
 
+.panel-24C3ux {
+    background: #141414 !important;
+    border-bottom: none;
+    border-radius: 0px 15px 15px 0px;
+}
+
 .container-1UB9sr, .container-1giJp5 {
   position: relative;
   background: #141414 !important;
