@@ -210,6 +210,14 @@
   background: #141414 !important;
 }
 
+.contextMenu-HLZMGh {
+    border-radius: 5px;
+}
+
+.note-3kmerW textarea:focus {
+    background-color: #20222575 !important;
+}
+
 /* WINDOWS BUTTONS */
 
 #app-mount .closeButton-1tv5uR path:last-child {
