@@ -1,5 +1,5 @@
 @import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css');
-@import url('https://capnkitten.github.io/BetterDiscord/Spotify-Discord/css/source.css');
+@import url('https://unironicallybased.github.io/lusion/serverlist.css');
 @import url('https://unironicallybased.github.io/lusion/badges.css');
 @import url('https://unironicallybased.github.io/lusion/user.css');
 @import url('https://bdsources.github.io/sourcecheck/code.css');
@@ -171,15 +171,6 @@
 .titleBar-AC4pGV {
     margin-top: 0px !important;
     height: 25px;
-}
-
-.wrapper-1Rf91z:after {
-    background: rgb(0, 0, 0, 0) !important;
-}
-
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-    color: #43b581;
-    background-color: var(--background-primary);
 }
 
 .panel-24C3ux {
