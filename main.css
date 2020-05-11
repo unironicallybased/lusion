@@ -165,6 +165,15 @@
 
 /* */
 
+.numberBadge-2s8kKX {
+    background-color: var(--accent-color) !important;
+}
+
+.mention-1f5kbO {
+    background-color: var(--accent-color) !important;
+    opacity: 0.9 !important;
+}
+
 .title-3qD0b-, .container-1r6BKw {
     background: #19191900 !important;
 }
