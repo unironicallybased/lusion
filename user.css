@@ -50,3 +50,25 @@
 [aria-label*="96934885540790272,"] {
   --user-background: url('https://media.tenor.com/images/f2e0a9c7840d46c1adeab91218bed64e/tenor.gif');
 }
+
+//
+
+[user_by_bdfdb*="467506376373960704"],
+[aria-label*="467506376373960704,"] {
+  --user-background: url('https://i.imgur.com/pqdICWJ.gif');
+ }
+
+[user_by_bdfdb*="588716235529650210"],
+[aria-label*="588716235529650210,"] {
+  --user-background: url('https://i.imgur.com/XRPmOL9.gif');
+}
+
+[user_by_bdfdb*="96934885540790272"],
+[aria-label*="96934885540790272,"] {
+  --user-background: url('https://media.tenor.com/images/f2e0a9c7840d46c1adeab91218bed64e/tenor.gif');
+}
+
+.topSectionPlaying-1J5E4n {
+    background: var(--user-background);
+}
+
