@@ -165,6 +165,16 @@
 
 /* */
 
+.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
+	background-color: var(--accent-color);
+}
+
+.colorDanger-2qLCe1.focused-3afm-j {
+	background-color: #f04747 !important;
+}
+
+
+
 .numberBadge-2s8kKX {
     background-color: var(--accent-color) !important;
 }
