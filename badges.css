@@ -13,7 +13,7 @@
   overflow: visible;
 }
 
-.avatar-1BDn8e[src*="588716235529650210"] + h2::after {
+.avatar-1BDn8e[src*="733989348352983062"] + h2::after {
     content: '';
     color: transparent;
     height: 25px;
@@ -43,7 +43,7 @@
   
   /* HOVER */
   
-  .avatar-1BDn8e[src*="588716235529650210"]:hover + h2::after,
+  .avatar-1BDn8e[src*="733989348352983062"]:hover + h2::after,
   .avatar-1BDn8e[src*="467506376373960704"]:hover + h2::after {
     color: white;
     transform: none;
@@ -129,7 +129,7 @@
     border-radius: 5px;
   }
 
-  .avatar-1BDn8e[src*="588716235529650210"]:hover + h2::after {
+  .avatar-1BDn8e[src*="733989348352983062"]:hover + h2::after {
     content: 'bane';
     color: #44ffc7;
     --main-color: #44ffc7;
