@@ -6,52 +6,36 @@
 .userPopout-3XzG_A .scroller-2FKFPG,
 .userPopout-3XzG_A .activity-11LB_k,
 .userPopout-3XzG_A .footer-1fjuF6,
-.headerNormal-T_seeN {
+.headerNormal-T_seeN,
+.body-3iLsc4{
   background: rgb(24, 24, 24, 0) !important;
   border-color: rgba(0, 0, 0, 0) !important;
 }
 
 .userPopout-3XzG_A {
-  --user-popout-position: center;
+     --user-popout-position: center;
 }
 
 .reduce-motion .userPopout-3XzG_A {
-	transform:translateZ(0);
+    transform:translateZ(0);
 }
 
 .userPopout-3XzG_A .wrapper-3t9DeA::after {
-	content: '';
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	pointer-events: none;
-    opacity: 100;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: var(--user-popout-position) center;
-    background-image: var(--user-background);
-    border-radius: 5px;
+ content: '';
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ pointer-events: none;
+ opacity: 100;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: var(--user-popout-position) center;
+ background-image: var(--user-background);
+ border-radius: 5px;
 }
-
-[user_by_bdfdb*="467506376373960704"],
-[aria-label*="467506376373960704,"] {
-  --user-background: url('https://i.imgur.com/pqdICWJ.gif');
- }
-
-[user_by_bdfdb*="733989348352983062"],
-[aria-label*="733989348352983062,"] {
-  --user-background: url('https://i.imgur.com/XRPmOL9.gif');
-}
-
-[user_by_bdfdb*="96934885540790272"],
-[aria-label*="96934885540790272,"] {
-  --user-background: url('https://media.tenor.com/images/f2e0a9c7840d46c1adeab91218bed64e/tenor.gif');
-}
-
-//
 
 [user_by_bdfdb*="467506376373960704"],
 [aria-label*="467506376373960704,"] {
