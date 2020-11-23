@@ -317,6 +317,12 @@
   background-color: transparent !important;
 }
 
+/* NITRO */
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  background-color: var(--background-secondary-alt);
+}
+
 /* NOTIF */
 
 .numberBadge-2s8kKX {
