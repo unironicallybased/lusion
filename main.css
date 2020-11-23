@@ -267,18 +267,26 @@
 
 /* SETTINGS / CHAT */
 
-.questionMark-3qBhGj {
+.questionMark-3qBhGj,
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
   background-color: var(--accent-color);
+}
+
+.input-cIJ7To {
+  background-color: var(--background-secondary);
+}
+
+.theme-dark .root-1gCeng,
+.theme-dark .footer-2gL1pp {
+  background-color: var(--background-secondary-alt);
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
   background-color: var(--background-modifier-selected);
 }
 
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
-  background-color: var(--accent-color);
-}
 
+.selectedIcon-3uS11H,
 .colorBrand-ROmMP1 {
   color: var(--accent-color);
 }
