@@ -265,6 +265,12 @@
 	z-index:3001;
 }
 
+/* VOICECHAT */
+
+.barFill-23-gu- {
+  background: var(--accent-color);
+}
+
 /* SETTINGS / CHAT */
 
 .questionMark-3qBhGj,
