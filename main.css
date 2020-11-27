@@ -11,6 +11,8 @@
   --danger-color-active: #c23e3e;
   --text-link: var(--accent-color);
   --bd-blue: var(--accent-color);
+  --bd-blue-hover: var(--accent-color);
+  --bd-blue-active: var(--accent-color-active);
   --radio-group-dot-foreground: var(--accent-color);
   --rs-small-spacing: 2px;  /* spacing between avatar and status */
   --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles */
