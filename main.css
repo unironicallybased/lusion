@@ -254,6 +254,10 @@
 
 /* TITLEBAR */
 
+.wordmarkWindows-1v0lYD {
+  color: var(--text-muted);
+}
+
 .winButton-iRh8-Z {
 	height: 32px;
 	transition: .1s ease background;
@@ -276,6 +280,10 @@
 .questionMark-3qBhGj,
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
   background-color: var(--accent-color);
+}
+
+.lookLink-9FtZy-.colorBrand-3pXr91 {
+  color: var(--accent-color);
 }
 
 .input-cIJ7To {
@@ -365,4 +373,16 @@
 
 .colorDanger-2qLCe1:active:not(.hideInteraction-1iHO1O) {
   background-color: var(--danger-color-active)
+}
+
+/* LOADING */
+
+.tipTitle-GL9qAt {
+  color: var(--accent-color);
+}
+
+/* LOGIN */
+
+.theme-dark.authBox-hW6HRx {
+  background: var(--rs-background-color);
 }
