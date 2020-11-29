@@ -280,8 +280,14 @@
 /* SETTINGS / CHAT */
 
 .questionMark-3qBhGj,
-.lookFilled-1Gx00P.colorBrand-3pXr91 {
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled,
+.selectorButtonSelected-t5V9On {
   background-color: var(--accent-color);
+}
+
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+  background-color: var(--accent-color-active);
 }
 
 .lookLink-9FtZy-.colorBrand-3pXr91 {
