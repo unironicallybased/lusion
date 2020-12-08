@@ -357,11 +357,20 @@
   background-color: var(--background-secondary-alt);
 }
 
-/* NOTIF */
+/* MENTION */
+
+.wrapper-3WhCwL {
+  color: var(--accent-color) !important;
+}
+
+.wrapper-3WhCwL:hover {
+  background-color: rgba(114,137,218,.1) !important;
+  color: var(--accent-color-active) !important;
+}
 
 .numberBadge-2s8kKX,
 .newMessagesBar-265mhP {
-  background-color: #37a145 !important;
+  background-color: var(--accent-color-active) !important;
 }
 
 .isUnread-3Ef-o9,
